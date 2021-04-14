@@ -1,4 +1,4 @@
 import useToggle from './hooks/useToggle';
+import useFetch from './hooks/useFetch';
 
-
-export { useToggle};
+export { useToggle,useFetch};
