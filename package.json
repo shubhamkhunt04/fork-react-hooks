@@ -1,6 +1,6 @@
 {
   "name": "fork-react-hooks",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A npm package that contain collection of easy to use React custom hooks for your next React project.",
   "main": "index.js",
   "scripts": {
