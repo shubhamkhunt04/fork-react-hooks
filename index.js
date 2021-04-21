@@ -4,6 +4,7 @@ import useForm from './hooks/useForm';
 import useOnlineStatus from './hooks/useOnlineStatus';
 import useLocalStorage from './hooks/useLocalStorage';
 import useDarkMode from './hooks/useDarkMode';
+import usePagination from './hooks/usePagination';
 
 export {
   useToggle,
@@ -12,4 +13,5 @@ export {
   useOnlineStatus,
   useLocalStorage,
   useDarkMode,
+  usePagination
 };
