@@ -12,10 +12,22 @@ A npm package that contain collection of easy to use React custom hooks for your
   const App = () => {
     const [isOn, setIsOn] = useToggle();
     return (
-      <div>
-        <h1>useToggle Hook</h1>
-        <button onClick={() => setIsOn(!isOn)}>Toggle {`${isOn}`} </button>
-      </div>
+      <>
+        <div>
+          <h1>Toggle Hook</h1>
+          {isOn ? (
+            <img src='https://www.w3schools.com/js/pic_bulbon.gif' alt='bulb' />
+          ) : (
+            <img
+              src='https://www.w3schools.com/js/pic_bulboff.gif'
+              alt='bulb'
+            />
+          )}
+        </div>
+        <button onClick={() => setIsOn(!isOn)}>
+          Bulb is {isOn ? 'ON' : 'OFF'}
+        </button>
+      </>
     );
   };
 
