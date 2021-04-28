@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useLocalStorage } from './useLocalStorage';
+import { useLocalStorage } from 'fork-react-hooks';
 
 const useDarkMode = (customStyle) => {
   const [mode, setMode] = useLocalStorage('mode', 'light');
