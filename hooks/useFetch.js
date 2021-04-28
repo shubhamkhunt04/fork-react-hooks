@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const useFetch = (url, options) => {
+const useFetch = (url, options = {}) => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [data, setData] = useState(null);
@@ -14,13 +14,13 @@ const useFetch = (url, options) => {
         // data is fetched then set it into setData state
         setData(data);
         setLoading(false);
-      } catch (error) {        
+      } catch (error) {
         setError(error);
       }
     };
     fetchData();
     // run again if any change in url or options
-  }, [url,options]);
+  }, [url, options]);
 
   return { error, loading, data };
 };
