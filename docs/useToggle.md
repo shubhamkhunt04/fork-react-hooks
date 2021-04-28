@@ -13,7 +13,7 @@ const App = () => {
   return (
     <>
       <div>
-        <h1>Toggle Hook</h1>
+        <h1>useToggle Hook</h1>
         {isOn ? (
           <img src='https://www.w3schools.com/js/pic_bulbon.gif' alt='bulb' />
         ) : (
