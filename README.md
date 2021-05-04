@@ -2,6 +2,8 @@
 
 A npm package that contain collection of easy to use React custom hooks for your next React project.
 
+## Examples
+
 - **useToggle**:
   [src](https://github.com/shubhamkhunt04/fork-react-hooks/blob/master/hooks/useToggle.js) / [doc](https://github.com/shubhamkhunt04/fork-react-hooks/blob/master/docs/useToggle.md)
 
