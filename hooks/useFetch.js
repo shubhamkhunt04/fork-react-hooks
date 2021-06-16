@@ -19,8 +19,8 @@ const useFetch = (url, options) => {
       }
     };
     fetchData();
-    // run again if any change in url or options
-  }, [url,options]);
+    // run again if any change in url
+  }, [url]);
 
   return { error, loading, data };
 };
